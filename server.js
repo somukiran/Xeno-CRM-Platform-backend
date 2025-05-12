@@ -2,9 +2,9 @@
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
-const customerRoutes = require('./routes/customerRoutes');
-const campaignRoutes = require('./routes/campaignRoutes');
-const analyticsRoutes = require('./routes/analyticsRoutes');
+const customerRoutes = require('customerRoutes');
+const campaignRoutes = require('campaignRoutes');
+const analyticsRoutes = require('analyticsRoutes');
 
 // Initialize Express app
 const app = express();
